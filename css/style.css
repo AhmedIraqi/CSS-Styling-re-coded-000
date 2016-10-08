@@ -1,0 +1,51 @@
+/* this is a comment */
+/* css syntax
+selector
+{proberty:value:}
+*/
+/* type secltor*/
+p {
+/* select all <p>*/
+font-size: 1em; /* px , pt , 100% , 1em */
+line-height:1.5em ;
+}
+figcaption{
+  /*font-weight: normal;
+  font-size: 0.7em ;
+  line-height: 1.5em ;
+  font-family: geogia , "time new roman" , serif;*/
+  font: normal 0.75em/1em geogia , "time new roman" , serif;
+  color: red ;
+  text-align: right;
+}
+/* class selector (applied to as many element as you like )*/
+.milk-text {/* select element with calss = (milk-text) */
+  font: bold 2.6em/ 'elsie swash caps' , cursive ;
+  color: white;
+  text-shadow: 0 2px 3px #000 ;
+
+}
+
+/* id selector (aplly to one unique element per page) */
+#logo {/* select element with id = (logo) */
+background: aqua
+}
+/* decendent selsctor */
+#logo h1 { /* selcet <h1> if inside */
+  font-family: 'Clicker script' , cursive;
+}
+#logo h2 { /* selcet <h1> if inside */
+  font-family: 'elsie swash caps' , cursive;
+}
+/* psuedo selector */
+#detail a:link , a:visited{
+  color: black
+  text-decoration: none;
+}
+#detail a:hover{
+  color: black
+  text-decoration: underline;
+}
+#detail a:active{
+  color: red
+}
